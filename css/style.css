@@ -1,3 +1,4 @@
+/* Type selectors */
 
 body {
   color: #878787;
@@ -22,6 +23,8 @@ h3 {
   color: #48525c;
 }
 
+/* Class selectors */
+
 .primary-content {
   text-align: center;
 }
@@ -30,11 +33,15 @@ h3 {
   border-top: 2px solid lightgrey;
 }
 
+/* ID selectors */
+
 #main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
   border-bottom: solid 10px #cc2506;
 }
+
+/* Pseudo classes */
 
 a:link {
   color: #cc2506;
