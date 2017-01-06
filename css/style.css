@@ -36,3 +36,23 @@ h3 {
   border-bottom: solid 10px #cc2506;
 }
 
+a:link {
+  color: #cc2506;
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: forestgreen;
+}
+
+a:active {
+  color: lightcoral;
+}
+
+a:focus {
+  color: white;
+  background-color: #cc2506;
+}
