@@ -8,7 +8,7 @@ body {
 
 h1 {
   font-size: 5.625rem; /* 90px / 16px */
-  color: white;
+  color: rgba(255, 255, 255, .5);
 }
 
 h2 {
@@ -50,7 +50,7 @@ h3 {
 /* Pseudo classes */
 
 a:link {
-  color: #cc2506;
+  color: rgb(204, 37, 6);
 }
 
 a:visited {
@@ -58,14 +58,11 @@ a:visited {
 }
 
 a:hover {
-  color: forestgreen;
+  color: rgba(204, 37, 6, .4);
 }
 
 a:active {
   color: lightcoral;
 }
 
-a:focus {
-  color: white;
-  background-color: #cc2506;
-}
+
