@@ -25,14 +25,16 @@ h3 {
 	margin-bottom: 1.7em; /* 34px */
 }
 
-p {
-	font-weight: bold;
+img {
+	max-width: 100%;
 }
 
 /* Class selectors */
 
 .main-header {
 	background-color: #cc2506;
+	padding-top: 170px;
+	height: 850px;
 }
 
 .title {
@@ -41,7 +43,8 @@ p {
 }
 
 .primary-content,
-.main-header {
+.main-header,
+.main-footer{
 	text-align: center;
 }
 
@@ -51,11 +54,6 @@ p {
 
 /* Layout styles */
 
-.primary-content, 
-.secondary-content {
-	width: 60%;
-	margin: auto;
-}
 
 .primary-content {
 	padding-top: 25px;
@@ -66,6 +64,18 @@ p {
 	padding-top: 80px;
 	padding-bottom: 70px;
  	border-bottom: 2px solid #dfe2e6;
+}
+
+.primary-content, 
+.secondary-content {
+	width: 860px;
+	padding-left: 50px;
+	padding-right:  50px;
+	margin: auto;
+}
+
+.arrow {
+	width: 50px;
 }
 
 .callout {
@@ -80,9 +90,7 @@ p {
 	margin: 120px 0 60px;
 }
 
-/* ID selectors */
-
-#main-footer {
+.main-footer {
 	padding-top: 60px;
 	padding-bottom: 60px;
 	border-bottom: solid 10px #cc2506;
