@@ -103,6 +103,29 @@ img {
 	border-bottom: solid 10px #cc2506;
 }
 
+/* Floated columns */
+
+.find-hashmeta,
+.offer {
+	width: 46.5%;
+}
+
+.offer {
+	float: left;
+}
+
+.find-hashmeta {
+	float: right;
+}
+
+/* Float clearfix */
+
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 /* Pseudo classes */
 
 a:link {
