@@ -1,5 +1,9 @@
 /* Type selectors */
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	color: #878787;
 	margin: 0;
@@ -27,6 +31,7 @@ h3 {
 
 img {
 	max-width: 100%;
+	margin-bottom: 20px;
 }
 
 /* Class selectors */
@@ -68,10 +73,11 @@ img {
 
 .primary-content, 
 .secondary-content {
-	width: 860px;
+	width: 75%;
 	padding-left: 50px;
 	padding-right:  50px;
 	margin: auto;
+	max-width: 900;
 }
 
 .arrow {
