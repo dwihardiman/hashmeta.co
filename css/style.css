@@ -37,9 +37,10 @@ img {
 /* Class selectors */
 
 .main-header {
-	background-color: #cc2506;
 	padding-top: 170px;
 	height: 850px;
+	background: #cc2506 url('../img/main-workspace.jpg') no-repeat center;
+	background-size: cover;
 }
 
 .title {
