@@ -15,6 +15,7 @@ h1 {
 	color: white;
 	text-transform: uppercase;
     font-weight: 400;
+	margin: 12px 0 0;
 }
 
 h2 {
@@ -55,6 +56,10 @@ li {
 .title {
 	color: white;
 	font-size: 1.625rem; /* 26px/16px */
+	letter-spacing: .065em;
+	font-weight: 200;
+	border-bottom: 2px solid;
+	padding-bottom: 10px;
 }
 
 .primary-content,
@@ -92,6 +97,7 @@ li {
 
 .arrow {
 	width: 50px;
+	margin-top: 150px;
 }
 
 .callout {
