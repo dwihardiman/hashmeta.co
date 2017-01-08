@@ -22,6 +22,7 @@ h2 {
 h3 {
 	font-size: 20px;
 	color: #48525c;
+	margin-bottom: 1.7em; /* 34px */
 }
 
 p {
@@ -46,6 +47,18 @@ p {
 
 .t-border {
 	border-top: 2px solid lightgrey;
+}
+
+/* Layout styles */
+
+.primary-content, 
+.secondary-content {
+	width: 60%;
+	margin: auto;
+}
+
+.video-frame {
+	margin: 105px 0 60px;
 }
 
 /* ID selectors */
