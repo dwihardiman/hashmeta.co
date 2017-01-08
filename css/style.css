@@ -12,8 +12,8 @@ body {
 
 h1 {
 	font-size: 5.625rem; /* 90px / 16px */
-    color: rgba(255, 255, 255, .5);
-    text-transform: uppercase;
+	color: white;
+	text-transform: uppercase;
     font-weight: 400;
 }
 
